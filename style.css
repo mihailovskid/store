@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 5rem;
+    margin-bottom: 0px;
+    padding-top: 300px;
+}
+h2 {
+    color: #c05060;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-size: 2rem;
+}
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+.color-white {
+    color: #fff;
+}
+.color-red {
+    color: #c05060;
+}
+.color-lightgrey {
+    color: #b7b7b7;
+}
+.color-dimgrey {
+    color: #787878;
+}
+header {
+    text-align: center;
+    background-image: url(https://picsum.photos/id/112/1200/600);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    height: 230vh;
+}
+.description {
+    width: 65%;
+    margin: 0px auto 70px;
+}
+.small-img {
+    width: 30%;
+    float: left;
+    margin: 0px 19px;
+    border-top: 5px solid #c05060;
+    text-align: left;
+
+}
+.small-img p:nth-child(2) {
+    text-transform: uppercase;
+    margin: 0px 0px 40px;
+}
+.images{
+   height: 450px;
+}
+hr {
+    width: 98%;
+    margin: 0px auto;
+    border-bottom: 1px solid #b7b7b7;
+}
+.big-img {
+    width: 22%;
+    float: left;
+    margin: 0px 18px;
+}
+.bold {
+    font-weight: bold;
+}
+.low-price {
+    color: #787878;
+    text-decoration: line-through;
+    font-weight: bold;
+    font-size: smaller;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #c05060;
+    border-radius: 50%;
+    position: relative;
+    bottom: 425px;
+    left: 20px;
+    color: white;
+}
+.circle p {
+    padding-top: 15px;
+}
+footer {
+    width: 100%;
+    clear: both;
+    background-color: #c05060;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+}
+.cookies {
+    width: 60%;
+    margin: 20px 0px 20px 30px;
+    display: inline-block;
+}
+.btn {
+    margin: auto;
+    display: inline-block;
+    margin-left: 30%;
+}
+.btn-box {
+    border: 2px solid white;
+    padding: 5px 10px;
+}
+.cookies a:first-child {
+    text-decoration: underline;
+}
